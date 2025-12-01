@@ -1,0 +1,15 @@
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
