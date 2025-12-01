@@ -9,10 +9,6 @@ A full-stack web application to upload CSV files with financial transactions, pr
 - **Database**: PostgreSQL (Docker)
 
 ## 📸 Demo
-
-![Dashboard Screenshot](assets/hourly-technical-assesment-picture.png)
-
-### Upload Process
 ![Upload Process](assets/transactions-video-test.gif)
 
 ## 🎯 Quick Start
