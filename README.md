@@ -10,10 +10,10 @@ A full-stack web application to upload CSV files with financial transactions, pr
 
 ## 📸 Demo
 
-![Dashboard Screenshot](assets/hourly-technical-assessment-picture.png)
+![Dashboard Screenshot](assets/hourly-technical-assesment-picture.png)
 
 ### Upload Process
-<video src="assets/transactions-video-test.mov" controls title="Upload Process"></video>
+![Upload Process](assets/transactions-video-test.gif)
 
 ## 🎯 Quick Start
 
