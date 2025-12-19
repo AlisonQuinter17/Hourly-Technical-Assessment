@@ -35,9 +35,8 @@ source venv/bin/activate
 # Install dependencies
 pip install -r backend/requirements.txt
 
-# Run tests
-cd backend
-pytest
+# Run tests (from root)
+venv/bin/pytest backend/tests
 ```
 
 ### Frontend

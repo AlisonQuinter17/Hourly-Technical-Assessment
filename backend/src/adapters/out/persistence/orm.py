@@ -1,13 +1,13 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
-from sqlalchemy.dialects.postgresql import UUID
-import uuid
+from sqlalchemy.orm import declarative_base
 from datetime import datetime
-from .database import Base
 
-class Transaction(Base):
+Base = declarative_base()
+
+class TransactionModel(Base):
     __tablename__ = "transactions"
 
-    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    id = Column(String, primary_key=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     status = Column(String, default="pending")
     num_records = Column(Integer, default=0)
